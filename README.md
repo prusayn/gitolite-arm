@@ -12,11 +12,11 @@ outside changes.
 
 New installation:
 
-    docker run -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" elsdoerfer/gitolite
+    docker run -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" prusayn/gitolite-arm
 
 Use an existing gitolite installation:
 
-    docker run -v /var/vcroot/git:/home/git/repositories elsdoerfer/gitolite
+    docker run -v /var/vcroot/git:/home/git/repositories prusayn/gitolite-arm
 
 ### Environment variables:
 
